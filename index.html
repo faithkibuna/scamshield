@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>scamshield</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>ScamShield Kenya</h1>
+      <p>Stay safe. Verify before you trust!</p>
+    </header>
+
+    <!-- NAVIGATION / MENU -->
+    <nav class="nav">
+      <ul>
+        <li><a href="#numberSection">Number Checker</a></li>
+        <li><a href="#linkSection">Link Checker</a></li>
+        <li><a href="#messageSection">Message Analyzer</a></li>
+        <li><a href="#reportSection">Report Scam</a></li>
+        <li><a href="#tipsSection">Safety Tips</a></li>
+      </ul>
+    </nav>
+
+    <!-- NUMBER CHECKER SECTION -->
+    <section class="section" id="numberSection">
+      <h2>Number Checker</h2>
+      <p>Enter a phone number to check if it is safe or reported for scams.</p>
+      <input type="text" placeholder="Enter phone number" />
+      <button>Check Number</button>
+      <div class="result" id="numberResult"></div>
+    </section>
+
+    <!-- LINK CHECKER SECTION -->
+    <section class="section" id="linkSection">
+      <h2>Link Checker</h2>
+      <p>Paste a suspicious link to see if it is safe.</p>
+      <input type="text" placeholder="Enter link" />
+      <button>Check Link</button>
+      <div class="result" id="linkResult"></div>
+    </section>
+
+    <!-- MESSAGE ANALYZER SECTION -->
+    <section class="section" id="messageSection">
+      <h2>Message Analyzer</h2>
+      <p>Paste a suspicious message to detect potential scam content.</p>
+      <textarea placeholder="Paste message here"></textarea>
+      <button>Analyze Message</button>
+      <div class="result" id="messageResult"></div>
+    </section>
+
+    <!-- REPORT SCAM SECTION -->
+    <section class="section" id="reportSection">
+      <h2>Report a Scam</h2>
+      <p>Fill the details to report a scam number, link, or message.</p>
+      <input type="text" placeholder="Scammer phone or email" />
+      <textarea placeholder="Describe the scam"></textarea>
+      <button>Submit Report</button>
+      <div class="result" id="reportResult"></div>
+    </section>
+
+    <!-- SAFETY TIPS SECTION -->
+    <section class="section" id="tipsSection">
+      <h2>Safety Tips</h2>
+      <ul>
+        <li>Never share your M-Pesa PIN or OTP with anyone.</li>
+        <li>Verify unknown phone numbers before sending money.</li>
+        <li>Do not click suspicious links in messages or emails.</li>
+        <li>Report any scam attempts immediately.</li>
+        <li>Check messages for signs of fake receipts or phishing.</li>
+      </ul>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>ScamShield Kenya - Protecting you from scams! &copy; 2025</p>
+    </footer>
+  </body>
+</html>
